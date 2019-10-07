@@ -41,7 +41,7 @@
             this.slideLeft();
             this.slideRight();
             if(this.isLeft){
-                this.autoLeft();
+                //this.autoLeft();
             }
 
             else{
