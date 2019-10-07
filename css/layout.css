@@ -324,39 +324,6 @@
     min-width: 621px;
 }
 
-.navigation-slider{
-         
-    /* background-image: -moz-linear-gradient( -89.706deg, rgb(255,108,84) 1%, rgb(255,43,89) 99%);
-    background-image: -webkit-linear-gradient( -89.706deg, rgb(255,108,84) 1%, rgb(255,43,89) 99%);
-    background-image: -ms-linear-gradient( -89.706deg, rgb(255,108,84) 1%, rgb(255,43,89) 99%); */
-    background:url('../images/Background.png');
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-.nav-upper{
-     
-    text-align: center;
-}
-
-.nav-lower{
-     
-    text-align: center;
-}
-
-.about .wrapper{
-    margin-top: 95px;
-    margin-bottom: 95px;
-}
-.about-l{
-    width: 48.7201%;
-    float: left;
-}
-
-.about-r{
-    width: 46.3310%;
-    float:right;
-}
 
 .Add{
     width: 100%;
@@ -674,21 +641,85 @@
     
     .navigation-slider{
          
-        background-image: -moz-linear-gradient( -89.706deg, rgb(255,108,84) 1%, rgb(255,43,89) 99%);
+        /* background-image: -moz-linear-gradient( -89.706deg, rgb(255,108,84) 1%, rgb(255,43,89) 99%);
         background-image: -webkit-linear-gradient( -89.706deg, rgb(255,108,84) 1%, rgb(255,43,89) 99%);
-        background-image: -ms-linear-gradient( -89.706deg, rgb(255,108,84) 1%, rgb(255,43,89) 99%);
+        background-image: -ms-linear-gradient( -89.706deg, rgb(255,108,84) 1%, rgb(255,43,89) 99%); */
+        /* display: initial; */
+        background:url('../images/Background.png');
         padding-top: 100px;
         padding-bottom: 100px;
     }
-    
-    .nav-upper{
-         
-        text-align: center;
+
+    .carousel{
+        /* display: initial; */
+        width: 70%;
+        height: 170px;
+        position: relative;
+        border: 2px solid black;
+        margin: 0 auto;
+        overflow: hidden;
     }
-    
-    .nav-lower{
-         
+
+    .carousel-wrapper{
+        /* display: initial; */
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0px;
+        top:0px;
+    }
+
+    .carousel-wrapper img{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        float: left;
+    }
+
+    .image-icon{
+        /* z-index:2; */
+        position: absolute;
+        text-align:center;
+        top: 0;
+        left: 49%;
+        cursor: pointer;
+    }
+
+    .nav-mid{
+        /* z-index:2; */
+        position: absolute;
         text-align: center;
+        left: 30%;
+        right: 30%;
+        top: 40%;
+        bottom: 40%;
+        opacity: 1;
+    }
+
+    .nav-mid span{
+        font-size: 20px;
+        font-family: "Roboto";
+        color: rgb(255, 255, 255);
+    }
+
+    .nav-mid p{
+        font-size: 13px;
+        font-family: "Roboto";
+        color: rgb(255, 255, 255);
+    }
+
+    .nav-lower{
+        /* z-index:2; */
+        position: absolute;
+        text-align: center;
+        bottom: 0px;
+        left: 45%;
+    }
+
+    .carousel-wrapper img{
+        position: absolute;
+        float: left;
+        /* z-index: 1; */
     }
     
     .subscribe{
@@ -714,8 +745,6 @@
     }
     
     .Add{
-        width: 100%;
-        min-width: 1200px;
         background-image: url("../images/Add_background.png");
         padding-top: 125px; 
     }

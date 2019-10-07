@@ -333,25 +333,14 @@
     color: #ffffff;
 }    
 
-.nav-upper .content span{
+/* .nav-upper .content span{
     font-size: 20px;
     font-family: "Roboto";
     color: rgb(255, 255, 255);
     line-height: 48px;
-}
-
-.nav-upper .content p{
-    font-size: 13px;
-    font-family: "Roboto";
-    color: rgb(255, 255, 255);
-}
+} */
 
 
-.nav-lower  img{
-    cursor: pointer;
-    margin-top: 50px;
-    margin-right: 32px;
-}
 
 .about-l img{
     max-width: 100%;
@@ -721,26 +710,29 @@ input[type = submit]{
         font-family: "Roboto";
         color: rgb(255, 255, 255);
     }
+
     
-    .nav-upper .content span{
-        font-size: 20px;
-        font-family: "Roboto";
-        color: rgb(255, 255, 255);
-        line-height: 48px;
-    }
-    
-    .nav-upper .content p{
-        font-size: 13px;
-        font-family: "Roboto";
-        color: rgb(255, 255, 255);
-    }
-    
-    
-    .nav-lower  img{
+    #left{
          
         cursor: pointer;
-        margin-top: 50px;
-        margin-right: 32px;
+        /* margin-top: 50px; */
+        margin-left: 10px;
+        margin-right: 10px;
+        background-image: url("../images/Left.png");
+        border-radius: 50%;
+        background-size: 100%;
+        padding:15px;
+    }
+
+    #right{
+        cursor: pointer;
+        /* margin-top: 50px; */
+        margin-left: 10px;
+        margin-right: 10px;
+        background-image: url("../images/Right.png");
+        border-radius: 50%;
+        background-size: 100%;
+        padding:15px;
     }
     
     .subscribe .wrapper span{
