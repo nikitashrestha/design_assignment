@@ -248,7 +248,7 @@
                         
                         that.wrapperPosition -= (that.imageWidth/(1000/FPS));
                         that.checkActiveSelect();
-                        //console.log(that.wrapperPosition);
+                        console.log(that.wrapperPosition);
                         
                         that.wrapper.style.left=`${-that.wrapperPosition}px`;
                         counter++;
