@@ -1,16 +1,48 @@
 .header img{
     max-width: 100%;
     display: block;
+    float: left;
 }
 
 .header a{
     display: block;
     cursor: pointer;
+    float: left;
 }
 
 .header ul{
-    display: none;
+    display: block;
+    min-width: 70%;
+    list-style: none;
+    float:right;
+    line-height: 45px;
 }
+
+.header li{
+    width:18.3486%;
+    line-height: 45px;
+    display: block;
+    float: left;
+    margin-right: 0.5%;
+    font-size: 15px;
+}
+
+.header li a{
+    text-decoration: none;
+    display: block;
+    color: #3f4244;
+    text-align: center;
+}
+
+.header li a:hover{
+    color: #ffffff;
+}
+
+.header li:hover{
+    background-color: #55e8ca;
+    border-radius: 6px;
+}
+
 
 .logo a img{
     max-width: 100%;;
@@ -301,8 +333,10 @@
 }
 
 .map ul{
+    margin-right: 20%;
+    margin-left: 20%;
     background-image: url("../images/Shape.png");
-    width: 31.5699%;
+    width: 60%;
     list-style: none;
     float: right;
 }
@@ -465,6 +499,8 @@ input[type = submit]{
         line-height: 45px;
         display: block;
         float: left;
+        margin-right: 0;
+        font-size: 15px;
     }
     
     .header li a{

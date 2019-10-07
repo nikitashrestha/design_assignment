@@ -12,7 +12,7 @@
 
 .header{
     width: 100%;
-    background-color: red;
+    /* background-color: red; */
     padding-top:30px;
     padding-bottom: 25px;
     min-width: 621px;
@@ -48,6 +48,9 @@
     padding-top: 85px;
 }
 
+.navigation-slider{
+    display: none;
+}
 .services-card{
     width: 45%;
     margin-right: 2.5%;
@@ -316,6 +319,7 @@
     background-color: #232e3d;
     padding-top: 113px;
     padding-bottom: 113px;
+    text-align: center;
 }
 
 .footer{
@@ -359,22 +363,7 @@
 }
 
 .contact-us{   
-    padding-bottom: 30px;
-    padding-top: 30px;
-    background:url('../images/contact.png');
-}
-
-.contact-us-h{
-    text-align: center;
-    padding-left:180px;
-    padding-right:180px;    
-}
-
-.contact-us-b{
-     
-    width: 65.5290%;
-    margin-left: 17.235%;
-    margin-right:17.235%;
+    display: none;
 }
 
 @media(min-width:375px){
@@ -640,7 +629,7 @@
     }
     
     .navigation-slider{
-         
+        display: block;
         /* background-image: -moz-linear-gradient( -89.706deg, rgb(255,108,84) 1%, rgb(255,43,89) 99%);
         background-image: -webkit-linear-gradient( -89.706deg, rgb(255,108,84) 1%, rgb(255,43,89) 99%);
         background-image: -ms-linear-gradient( -89.706deg, rgb(255,108,84) 1%, rgb(255,43,89) 99%); */
@@ -816,7 +805,7 @@
     }
     
     .contact-us{
-         
+        display: block;
         padding-bottom: 95px;
         padding-top: 56px;
         background-image:url('../images/contact.png');
