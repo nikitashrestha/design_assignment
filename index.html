@@ -1,420 +1,455 @@
-<html>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE html>
     <head>
-        
         <link rel = "stylesheet" type = "text/css" href = "css/reset.css" />
         <link rel = "stylesheet" type = "text/css" href = "css/layout.css" />
         <link rel = "stylesheet" type = "text/css" href = "css/style.css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"/>
         <title>Design Assignment</title>
-        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
     <body>
         <div class="header">
             <div class="wrapper clearfix">
-                <div class="logo"><a href="#"><img src="./images/logo.png"></a></div>
-                <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">SERVICES</a></li>
-                    <li><a href="#">PORTFOLIO</a></li>
-                    <li><a href="#">ABOUT</a></li>
+                <div class="logo"><img src="./images/logo.png" alt="logo"/></div>
+                <ul class="hamburger">
+                    <li class="line"></li>
+                    <li class="line"></li>
+                    <li class="line"></li>
+                </ul>
+                <ul class="menu-item">
                     <li><a href="#">CONTACT</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">PORTFOLIO</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#" class="active">HOME</a></li>
                 </ul>
                 
             </div>
         </div>
         <div class="main-wrapper">
-            <div class="hero">
-                <div class="wrapper">
-                    <div>
-                        <h2>Try Design, You'll Like It.</h2>
-                        <button>SHOW ME THEN!!!</button>
-                    </div>
+            <div class="block-1">
+                <div class="wrapper"> 
+                    <h2>Try Design, You'll Like It.</h2><br/>
+                    <span>SHOW ME THEN!!!</span>
                 </div>
             </div>
-            <div class="services">
-                <div class="wrapper">
-                    <div class="services-card-wrapper clearfix">
-                        <div class="services-card">
-                            <div class="image">
-                                <div class="holder"><img src="./images/Composite Path.png"></div>
-                                <div><span>GRAPHIC DESIGN</span></div>
-                            </div>
-                            <div class="content">
-                                <p>Completed Projects fdvbdk bv,dzfvb jbvhzbdfhv jfbvhzdfbvjdhfv</p>
-                            </div>
-                        </div>
-                        <div class="services-card">
-                            <div class="image">
-                                <div class="holder"><img src="./images/Composite Path2.png"></div>
-                                <div><span>GRAPHIC DESIGN</span></div>
-                            </div>
-                            <div class="content">
-                                <p>Completed Projects fdvbdk bv,dzfvb jbvhzbdfhv jfbvhzdfbvjdhfv</p>
-                            </div>
-                        </div>
-                        <div class="services-card">
-                            <div class="image">
-                                <div class="holder"><img src="./images/Composite Path3.png"></div>
-                                <div><span>PROGRAMMING</span></div>
-                            </div>
-                            <div class="content">
-                                <p>Completed Projects fdvbdk bv,dzfvb jbvhzbdfhv jfbvhzdfbvjdhfv</p>
-                            </div>
-                        </div>
-                        <div class="team-card-unique services-card">
-                            <div class="image">
-                                <div class="holder"><img src="./images/Composite Path4.png"></div>
-                                <div><span>PHOTOGRAPHY</span></div>
-                            </div>
-                            <div class="content">
-                                <p>Completed Projects fdvbdk bv,dzfvb jbvhzbdfhv jfbvhzdfbvjdhfv</p>
-                            </div>
-                        </div>
-                    </div>
-                    <button>NEED SERVICE?</button>
-                </div>
-            </div>
-            <div class="browser-add">
-                <div class="wrapper">
-                    <div class="browser-header">
-                        <span>The Design That Likes To Say Yes</span>
-                        <p>hfkbk jbfv,bsf,dkj kbfsjdbvfdsjkv klvfjszbfjdsb kbvjbvdsj</p>
-                    </div>
-                    <div class="browser-body">
-                       <div class="browser-l-r clearfix">
-                           <div class="browser-l">
-                                <img src="./images/Left Browser.png">
-                           </div>
-                           <div class="browser-r">
-                                <img src="./images/Right Browser.png">
-                           </div>
-                       </div>
-                       <div class="browser-mid">
-                           <img src="./images/Middle Browser.png">
-                       </div> 
-                    </div>
-                </div>
-            </div>
-            <div class="phone-add">
+            <div class="block-2">
                 <div class="wrapper clearfix">
-                    <div class="phone clearfix"> 
-                        <div class="phone1">
-                            <img src="./images/Right Phone.png">
-                        </div>
-                        <div class="phone2">
-                            <img src="./images/Left Phone.png">
-                        </div>
+                    <ul>
+                        <li>     
+                            <div class="card">
+                                <div class="image">
+                                    <img src="./images/CompositePath.png" alt="icon"/>
+                                </div>
+                                <div class="content">
+                                    <h3>GRAPHIC DESIGN</h3>
+                                    <p>Completed Projects fdvbdk bv,dzfvb jbvhzbdfhv jfbvhzdfbvjdhfv</p>
+                                </div>
+                            </div>  
+                        </li>
+                        <li>
+                            <div class="card">
+                                <div class="image">
+                                    <img src="./images/CompositePath2.png" alt="icon"/>
+                                </div>
+                                <div class="content">
+                                    <h3>GRAPHIC DESIGN</h3>
+                                    <p>Completed Projects fdvbdk bv,dzfvb jbvhzbdfhv jfbvhzdfbvjdhfv</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="card">
+                                <div class="image">
+                                    <img src="./images/CompositePath3.png" alt="icon"/>
+                                </div>
+                                <div class="content">
+                                    <h3>PROGRAMMING</h3>
+                                    <p>Completed Projects fdvbdk bv,dzfvb jbvhzbdfhv jfbvhzdfbvjdhfv</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="card">
+                                <div class="image">
+                                    <img src="./images/CompositePath4.png" alt="icon"/>
+                                </div>
+                                <div class="content">
+                                    <h3>PHOTOGRAPHY</h3>
+                                    <p>Completed Projects fdvbdk bv,dzfvb jbvhzbdfhv jfbvhzdfbvjdhfv</p>
+                                </div>
+                            </div>
+                        </li>  
+                    </ul>
+                    <span>NEED SERVICES ???</span>
+                </div>
+            </div>
+            <div class="block-3">
+                <div class="wrapper">
+                    <div class="block-3-h">
+                        <h2>The Design That Likes To Say Yes</h2>
+                        <p>hfkbk jbfv,bsf,dkj kbfsjdbvfdsjkv klvfjszbfjdsb kbvjbvdsj</p>
                     </div>
-                    <div class="content">
-                        <span>Fully Responsive</span>
-                        <p>brfrek kfvksjdfvk vfkjsjdbvkds kvkdsbvksdn kvkfsjvksd knvksfdjnvd knvdfksv<br>kjdhsc vkfjx bvkdf<br>bcvxb kbkxj bj kj<br>jhbdcjshb jhdsvbjhsd jdhscds<br>hjbdvds hbdvjxhdf</p>
-                        <button>ORDER ME ONE</button>
+                    <div class="block-3-b">
+                        <div class="back clearfix">
+                            <div class="left">
+                                <img src="./images/LeftBrowser.png" alt="browser"/>
+                            </div>
+                            <div class="right">
+                                <img src="./images/RightBrowser.png" alt="browser"/>
+                            </div>
+                        </div>
+                        <div class="front">
+                            <img src="./images/MiddleBrowser.png" alt="browser"/>
+                        </div> 
                     </div>
                 </div>
             </div>
-            <div class="portfolio">
-                <div class="wrapper">
-                    <div class="portfolio-headers">
-                        <span>The Design That Likes To Say Yes</span>
+            <div class="block-4">
+                <div class="wrapper clearfix">
+                        <div class="block-4-l clearfix"> 
+                            <div class="phone1">
+                                <img src="./images/RightPhone.png" alt="phone"/>
+                            </div>
+                            <div class="phone2">
+                                <img src="./images/LeftPhone.png" alt="phone"/>
+                            </div>
+                        </div>
+                        <div class="block-4-r">
+                            <h2>Fully Responsive</h2>
+                            <p>brfrek kfvksjdfvk vfkjsjdbvkds kvkdsbvksdn kvkfsjvksd knvksfdjnvd knvdfksv<br>kjdhsc vkfjx bvkdf<br>bcvxb kbkxj bj kj<br>jhbdcjshb jhdsvbjhsd jdhscds<br>hjbdvds hbdvjxhdf</p>
+                            <span>ORDER ME ONE</span>
+                        </div>
+                </div>
+            </div>
+            <div class="block-5">
+                <div class="wrapper clearfix">
+                    <div class="block-5-h">
+                        <h2>The Design That Likes To Say Yes</h2>
                         <p>hfkbk jbfv,bsf,dkj kbfsjdbvfdsjkv klvfjszbfjdsb kbvjbvdsj</p>
                     </div>
-                    <div class="portfolio-body">
-                        <ul class="clearfix">
-                            <li><a href="#">ALL</a></li>
-                            <li><a href="#">WEB</a></li>
-                            <li><a href="#">PHOTOGRAPHY</a></li>
-                            <li><a href="#">GRAPPHIC DESIGN</a></li>
+                    <div class="block-5-b">
+                        <ul class="tabs  clearfix">
+                            <li><a href = "#" class="active">ALL</a></li>
+                            <li><a href = "#">WEB</a></li>
+                            <li><a href = "#">PHOTOGRAPHY</a></li>
+                            <li><a href = "#">GRAPHIC DESIGN</a></li>
                         </ul>
-                        <div class="portfolio-card-wrapper clearfix">
-                            <div class="portfolio-card">
-                                <div class="image"><img src="./images/card-image.png"></div>
-                                <div class="content">
-                                    <a href="#">
-                                        <span>WEB DESIGN</span>
-                                        <p>kjfnvfjdnv kfvlbfdskjvdx khdfbvkdfslbvd lfbvlsdfjbv lbvlsjdv bljfdvs lbfdjvsd lbsvjdf lbfsdvj</p>
-                                    </a>
+                        <ul class="tab-body  clearfix">
+                            <li>
+                                <div class="card">
+                                    <div class="image"><img src="./images/card-image.png" alt="cardImg"/></div>
+                                    <div class="content">
+                                        <a href="#">
+                                            <h3>WEB DESIGN</h3>
+                                            <p>kjfnvfjdnv kfvlbfdskjvdx khdfbvkdfslbvd lfbvlsdfjbv lbvlsjdv bljfdvs lbfdjvsd lbsvjdf lbfsdvj</p>
+                                        </a>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="portfolio-card portfolio-unique1">
-                                <div class="image"><img src="./images/card-image.png"></div>
-                                <div class="content">
-                                    <a href="#">
-                                        <span>PHOTOGRAPHY</span>
-                                        <p>kjfnvfjdnv kfvlbfdskjvdx khdfbvkdfslbvd lfbvlsdfjbv lbvlsjdv bljfdvs lbfdjvsd lbsvjdf lbfsdvj</p>
-                                    </a>
+                            </li>
+                            <li>
+                                <div class="card">
+                                    <div class="image"><img src="./images/card-image.png" alt="cardImg"/></div>
+                                    <div class="content">
+                                        <a href="#">
+                                            <h3>PHOTOGRAPHY</h3>
+                                            <p>kjfnvfjdnv kfvlbfdskjvdx khdfbvkdfslbvd lfbvlsdfjbv lbvlsjdv bljfdvs lbfdjvsd lbsvjdf lbfsdvj</p>
+                                        </a>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="portfolio-unique portfolio-card">
-                                <div class="image"><img src="./images/card-image.png"></div>
-                                <div class="content">
-                                    <a href="#">
-                                        <span>PROGRAMMING</span>
-                                        <p>kjfnvfjdnv kfvlbfdskjvdx khdfbvkdfslbvd lfbvlsdfjbv lbvlsjdv bljfdvs lbfdjvsd lbsvjdf lbfsdvj</p>
-                                    </a>
-                                </div>    
-                            </div>
-                            <div class="portfolio-unique1 portfolio-card">
-                                <div class="image"><img src="./images/card-image.png"></div>
-                                <div class="content">
-                                    <a href="#">
-                                        <span>WEB DESIGN</span>
-                                        <p>kjfnvfjdnv kfvlbfdskjvdx khdfbvkdfslbvd lfbvlsdfjbv lbvlsjdv bljfdvs lbfdjvsd lbsvjdf lbfsdvj</p>
-                                    </a> 
+                            </li>
+                            <li>
+                                <div class="card">
+                                    <div class="image"><img src="./images/card-image.png" alt="cardImg"></div>
+                                    <div class="content">
+                                        <a href="#">
+                                            <h3>PROGRAMMING</h3>
+                                            <p>kjfnvfjdnv kfvlbfdskjvdx khdfbvkdfslbvd lfbvlsdfjbv lbvlsjdv bljfdvs lbfdjvsd lbsvjdf lbfsdvj</p>
+                                        </a>
+                                    </div> 
                                 </div>
-                            </div>
-                            <div class="portfolio-card">
-                                <div class="image"><img src="./images/card-image.png"></div>
-                                <div class="content">
-                                    <a href="#">
-                                        <span>WEB DESIGN</span>
-                                        <p>kjfnvfjdnv kfvlbfdskjvdx khdfbvkdfslbvd lfbvlsdfjbv lbvlsjdv bljfdvs lbfdjvsd lbsvjdf lbfsdvj</p>
-                                    </a>
+                            </li>
+                            <li>
+                                <div class="card">
+                                    <div class="image"><img src="./images/card-image.png" alt="cardImg"></div>
+                                    <div class="content">
+                                        <a href="#">
+                                            <h3>WEB DESIGN</h3>
+                                            <p>kjfnvfjdnv kfvlbfdskjvdx khdfbvkdfslbvd lfbvlsdfjbv lbvlsjdv bljfdvs lbfdjvsd lbsvjdf lbfsdvj</p>
+                                        </a> 
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="portfolio-unique1 portfolio-unique portfolio-card">
-                                <div class="image"><img src="./images/card-image.png"></div>
-                                <div class="content">
-                                    <a href="#">
-                                        <span>WEB DESIGN</span>
-                                        <p>kjfnvfjdnv kfvlbfdskjvdx khdfbvkdfslbvd lfbvlsdfjbv lbvlsjdv bljfdvs lbfdjvsd lbsvjdf lbfsdvj</p>
-                                    </a>
+                            </li>
+                            <li>
+                                <div class="card">
+                                    <div class="image"><img src="./images/card-image.png" alt="cardImg"></div>
+                                    <div class="content">
+                                        <a href="#">
+                                            <h3>WEB DESIGN</h3>
+                                            <p>kjfnvfjdnv kfvlbfdskjvdx khdfbvkdfslbvd lfbvlsdfjbv lbvlsjdv bljfdvs lbfdjvsd lbsvjdf lbfsdvj</p>
+                                        </a>
+                                    </div>
+                                </div>  
+                            </li>
+                            <li>
+                                <div class="card">
+                                    <div class="image"><img src="./images/card-image.png" alt="cardImg"></div>
+                                    <div class="content">
+                                        <a href="#">
+                                            <h3>WEB DESIGN</h3>
+                                            <p>kjfnvfjdnv kfvlbfdskjvdx khdfbvkdfslbvd lfbvlsdfjbv lbvlsjdv bljfdvs lbfdjvsd lbsvjdf lbfsdvj</p>
+                                        </a>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <span class="load-more"><img src="./images/ArrowDown.png"></div>
+                            </li>
+                        </ul>
+                        <span>&#8595;</span>
                     </div>
                 </div>
-            <div class="stats">
+            </div>
+            <div class="block-6">
+                <div class="wrapper clearfix">
+                    <div class="card">
+                        <div class="image">
+                            <img src="./images/StatIcon1.png" alt="icon"/>
+                        </div>
+                        <div class="content">
+                            <span>2093</span>
+                            <h3>COMPLETED PROJECTS</h3>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="./images/StatIcon2.png" alt="icon"/>
+                        </div>
+                        <div class="content">
+                            <span>9 134 835</span>
+                            <h3>CLICK PRESED</h3>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="./images/StatIcon3.png" alt="icon"/>
+                        </div>
+                        <div class="content">
+                            <span>7143</span>
+                            <h3>MAILS SENTED & RECIVED</h3>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="./images/StatIcon4.png" alt="icon"/>
+                        </div>
+                        <div class="content">
+                            <span>427</span>
+                            <h3>JOKES TOLDS</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="block-7">
+                <div class="wrapper clearfix">
+                    <div class="block-7-h">
+                        <h2>Behold The Power Of The Team</h2>
+                        <p>hfkbk jbfv,bsf,dkj kbfsjdbvfdsjkv <br>klvfjszbfjdsb kbvjbvdsj</p>
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="card">
+                                <div class="image">
+                                    <img src="./images/team.png" alt = "team"/>
+                                </div>
+                                <div class="content">
+                                    <a href="#">
+                                        <h2>John Doe</h2>
+                                        <h3>Graphic Designer</h3>
+                                        <p>rbfkrelsbglesrg ghslegbegbes lbgvlsdfbvsel</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="card">
+                                <div class="image">
+                                    <img src="./images/team.png" alt = "team"/>
+                                </div>
+                                <div class="content">
+                                    <a href="#">
+                                        <h2>John Doe</h2>
+                                        <h3>Graphic Designer</h3>
+                                        <p>rbfkrelsbglesrg ghslegbegbes lbgvlsdfbvsel</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="card">
+                                <div class="image">
+                                    <img src="./images/team.png" alt = "team"/>
+                                </div>
+                                <div class="content">
+                                    <h2>John Doe</h2>
+                                    <h3>Graphic Designer</h3>
+                                    <p>rbfkrelsbglesrg ghslegbegbes lbgvlsdfbvsel</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="card">
+                                <div class="image">
+                                    <img src="./images/team.png" alt = "team"/>
+                                </div>
+                                <div class="content">
+                                    <h2>John Doe</h2>
+                                    <h3>Graphic Designer</h3>
+                                    <p>rbfkrelsbglesrg ghslegbegbes lbgvlsdfbvsel</p>
+                            </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="block-8">
                 <div class="wrapper">
-                    <div class="stats-card-wrapper clearfix">
-                        <div class="stats-card">
-                            <div class="image"><img src="./images/StatIcon1.png"></div>
-                            <div class="content">
-                                <span>2093</span>
-                                <p>COMPLETED PROJECTS</p>
-                            </div>
-                        </div>
-                        <div class="stats-card-unique stats-card">
-                            <div class="image"><img src="./images/StatIcon2.png"></div>
-                            <div class="content">
-                                <span>9 134 835</span>
-                                <p>CLICK PRESED</p>
-                            </div>
-                        </div>
-                        <div class="stats-card">
-                            <div class="image"><img src="./images/StatIcon3.png"></div>
-                            <div class="content">
-                                <span>7143</span>
-                                <p>MAILS SENTED & RECIVED</p>
-                            </div>
-                        </div>
-                        <div class="team-card-unique stats-card">
-                            <div class="image"><img src="./images/StatIcon4.png"></div>
-                            <div class="content">
-                                <span>427</span>
-                                <p>JOKES TOLDS</p>
-                            </div>
-                        </div>
-                    </div>             
-                </div>
-            </div>
-            <div class="team">
-                <div class="wrapper">
-                    <div class="team-header">
-                        <span>Behold The Power Of The Team</span>
-                        <p>hfkbk jbfv,bsf,dkj kbfsjdbvfdsjkv klvfjszbfjdsb kbvjbvdsj</p>
-                    </div>
-                    <div class="team-card-wrapper clearfix">
-                        <div class="team-card">
-                            <div class="image"><img src="./images/team.png"></div>
-                            <div class="content">
-                                <a href="#">
-                                    <div>
-                                        <span>John Doe</span>
-                                        <p class="post">Graphic Designer</p>
-                                    </div>
-                                    <p class="desc">rbfkrelsbglesrg ghslegbegbes lbgvlsdfbvsel</p>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="team-card">
-                            <div class="image"><img src="./images/team.png"></div>
-                            <div class="content">
-                                <a href="#">
-                                    <div>
-                                        <span>John Doe</span>
-                                        <p class="post">Graphic Designer</p>
-                                    </div>
-                                    <p class="desc">rbfkrelsbglesrg ghslegbegbes lbgvlsdfbvsel</p>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="team-card">
-                            <div class="image"><img src="./images/team.png"></div>
-                            <div class="content">
-                                <a href="#">
-                                    <div>
-                                        <span>John Doe</span>
-                                        <p class="post">Graphic Designer</p>
-                                    </div>
-                                    <p class="desc">rbfkrelsbglesrg ghslegbegbes lbgvlsdfbvsel</p>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="team-card-unique team-card">
-                            <div class="image"><img src="./images/team.png"></div>
-                            <div class="content">
-                                <a href="#">
-                                    <div>
-                                        <span>John Doe</span>
-                                        <p class="post">Graphic Designer</p>
-                                    </div>
-                                    <p class="desc">rbfkrelsbglesrg ghslegbegbes lbgvlsdfbvsel</p>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="navigation-slider">
-                <div class="carousel clearfix">
-                    <div class="carousel-wrapper clearfix">
-                        <img src="./images/1.jpg">
-                        <img src="./images/2.jpg">
-                        <img src="./images/3.jpg">
-                    </div>
-                    <div class="image-icon"><img src="./images/Icon.png"></div>
-                    <div class="nav-mid">
-                        <span>We realize and actualize your vision</span>
-                        <p>John Doe CEO</p>
-                    </div> 
-                    <div class="nav-lower">
-                        <button id = "left">
-                        <button id = "right">
-                    </div>
-                </div>
-            </div>
+                    <div class="carousel">
+                        <a class="stop active" onclick="stopSlides()">| |</a>
 
-            <div class="subscribe">
+                        <ul>
+                            <li class="slider fade">
+                                <h3>We realize and actualize your vision</h3>
+                                <span>John Doe , CEO</span>
+                            </li>
+                            <li class="slider fade">
+                                <h3>We realize and actualixe your vision</h3>
+                                <span>Akriti Shrestha , CTO</span>
+                            </li>
+                            <li class="slider fade">
+                                <h3>We realize and actualixe your vision</h3>
+                                <span>Nikita Shrestha, Developer</span>
+                            </li>
+                        </ul>
+                        <a class = "prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                </div>
+            </div>
+            <div class="block-9">
                 <div class="wrapper">
-                    <span>Want to hear more story,subscribe for our newsletter</span><br>
-                    <button>Subscribe</button>
+                    <h2>Want to hear more story,subscribe for our newsletter</h2>
+                    <span>Subscribe</span>
                 </div>
             </div>
-            <div class="about">
+            <div class="block-10">
                 <div class="wrapper clearfix">
-                    <div class="about-l">
-                        <img src="./images/about.png">
+                    <div class="block-10-l">
+                        <img src="./images/about.png" alt="about image"/>
                     </div>
-                    <div class="about-r">
-                        <span>
-                            About Some Site
-                        </span>
-                        <p>jkvfkjdfnvjk></p>
-                        <p>gvfdjhzdbjhsdz</p>
+                    <div class="block-10-r">
+                        <h3>About Some Site</h3>
+                        <p>jkvfkjdfnvjk rfvksj khsfbevkh kbsfekh lbefs</p>
                     </div>
                 </div>
             </div>
-            <div class="Add">
+            <div class="block-11">
                 <div class="wrapper clearfix">
-                    <div class="Add-l clearfix">
-                        <div><img src="./images/Phone_Mockup.png"></div>
-                    </div>
-                    <div class="Add-r clearfix">
+                    <div class="block-11-l">
                         <div>
-                            <h2>MODERN DESIGN</h2>
-                            <span>Responsive Design</span>
-                        </div>
-                        <div class="para">
-                            <p>
-                                Hello World Its me Nikita Shrestha.<br>
-                                I am proud to be a pulchowk student.
-                            </p>
+                            <img src="./images/Phone_Mockup.png" alt="phone"/>
                         </div>
                     </div>
-                </div>  
-            </div> 
-            <div class="clients">
-                <div class="wrapper">
-                    <div class="client-headers">
-                        <span>What Clients Say</span>
+                    <div class="block-11-r">
+                        <h2>MODERN DESIGN</h2>
+                        <span>Responsive Design</span>
+                        <p>
+                            Hello World Its me Nikita Shrestha.<br>
+                            I am proud to be a pulchowk student.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="block-12">
+                <div class="wrapper clearfix">
+                    <div class="block-12-h">
+                        <h2>What Clients Say</h2>
                         <p>hfkbk jbfv,bsf,dkj kbfsjdbvfdsjkv klvfjszbfjdsb kbvjbvdsj</p>
                     </div>
-                    <div class="client-card-wrapper clearfix">
-                        <div class="client-card">
+                    <ul>
+                        <li>
                             <a href="#">
-                                <div class="client-card-h">
-                                    <h2>Arya Stoen</h2>
-                                    <span>Graphic Designer</span>
-                                </div>
-                                <div class="client-card-b">
-                                    <p>kjfdzkjf kjzdfbvkdzfjsvb bbvjdzfbjkf<br>hello><br>hello</p>
+                                <div class="card">
+                                    <div class="card-h">
+                                        <h2>Arya Stoen</h2>
+                                        <h3>Graphic Designer</h3>
+                                    </div>
+                                    <div class="card-b">
+                                        <p>kjfdzkjf kjzdfbvkdzfjsvb bbvjdzfbjkf<br>hello><br>hello</p>
+                                    </div>
                                 </div>
                             </a>
-                        </div>
-                        <div class="client-card">
+                        </li>
+                        <li>
                             <a href="#">
-                                <div class="client-card-h">
-                                    <h2>Arya Stoen</h2>
-                                    <span>Graphic Designer</span>
-                                </div>
-                                <div class="client-card-b">
-                                    <p>kjfdzkjf kjzdfbvkdzfjsvb bbvjdzfbjkf<br>hello><br>hello</p>
+                                <div class="card">
+                                    <div class="card-h">
+                                        <h2>Arya Stoen</h2>
+                                        <h3>Graphic Designer</h3>
+                                    </div>
+                                    <div class="card-b">
+                                        <p>kjfdzkjf kjzdfbvkdzfjsvb bbvjdzfbjkf<br>hello><br>hello</p>
+                                    </div>
                                 </div>
                             </a>
-                        </div>
-                        <div class="client-card-unique client-card">
+                        </li>
+                        <li>
                             <a href="#">
-                                <div class="client-card-h">
-                                    <h2>Arya Stoen</h2>
-                                    <span>Graphic Designer</span>
-                                </div>
-                                <div class="client-card-b">
-                                    <p>kjfdzkjf kjzdfbvkdzfjsvb bbvjdzfbjkf<br>hello><br>hello</p>
+                                <div class="card">
+                                    <div class="card-h">
+                                        <h2>Arya Stoen</h2>
+                                        <h3>Graphic Designer</h3>
+                                    </div>
+                                    <div class="card-b">
+                                        <p>kjfdzkjf kjzdfbvkdzfjsvb bbvjdzfbjkf<br>hello><br>hello</p>
+                                    </div>
                                 </div>
                             </a>
-                        </div>
-                    </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <div class="contact-us">
+            <div class="block-13">
                 <div class="wrapper">
-                    <div class="contact-us-h">
+                    <div class="block-13-h">
                         <h2>Contact Us</h2>
                         <p>khgfbkfdbvkdfjsvb bfkjvkjzsdf kjfvkjdf<br>jvkfsbvkfd bkfjdvks</p>
                     </div>
-                    <div class="contact-us-b clearfix">
-                        <div class="clearfix">
-                            <input type="text" placeholder="Your name here">
-                            <input type="text" style="float: right;" placeholder="Your email here">
-                            
-                        </div>
-                        <div class="clearfix">
-                            <input type="text" id="message" placeholder="Your message here">
-                        </div>
-                        <div class="clearfix">
-                            <input type="submit" value="Send Message">
-                        </div>
+                    <div class="block-13-b clearfix">
+                        <form>
+                            <div>
+                            <input type="text" placeholder="Your name here"/>
+                            <input type="text" placeholder="Your email here"/>
+                            </div>
+                            <input type="text" placeholder="Your message here"/>
+                            <input type="submit" value = "Send Message">
+                        </form>
                     </div>
                 </div>
             </div>
-            <div class="map">
+            <div class="block-14">
                 <div class="wrapper clearfix">
                     <ul>
-                        <li>Awesome Address 432</li>
-                        <li>ourmail@sometype.com</li>
-                        <li>+321(0)32 123 343 49</li>
+                        <li><a href="#">Address 432</a></li>
+                        <li><a href="#">ourmail@sometype.com</a></li>
+                        <li><a href="#">+321(0)32 123 343 49</a></li>
                     </ul>
                 </div>
             </div>
         </div>
         <div class="footer">
             <div class="wrapper">
-                <p>&copy; 2017 - <span>Zoom</span> All Right Reserved</p>
+                <p>&copy; 2017 - <a href="#">Zoom</a> All Right Reserved</p>
             </div>
         </div>
-        <script type="text/javascript" src="js/carousel.js">
-            
-        </script>
+    <script src="./js/hamburger.js"></script>
+    <script src="./js/carousel.js"></script>
     </body>
 </html>
