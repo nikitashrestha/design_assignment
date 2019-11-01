@@ -71,11 +71,9 @@
 
 .block-3-b{
     width: 100%;
-    font-size: 0;
     position: relative;
     height: 350px;
     z-index: 0;
-    padding: 0px;
 }
 
 .block-3-b .back{
@@ -151,7 +149,6 @@
 
 .block-5-b .card{
     width: 100%;
-    font-size: 0;
     padding: 20px;
     cursor: pointer;
 }
@@ -179,7 +176,6 @@
 
 .block-6 .card{
     width: 100%;
-    font-size: 0;
     margin-bottom: 20px;
     margin-top: 20px;
 }
@@ -204,7 +200,6 @@
 
 .block-7 .card{
     width: 100%;
-    font-size: 0;
     cursor: pointer;
     padding: 20px;
 }

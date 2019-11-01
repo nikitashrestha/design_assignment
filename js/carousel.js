@@ -25,6 +25,8 @@ function stopSlides(){
 function showSlidesD() {
     var slideIndexInner = 0;
     var interval = setInterval( function(){
+    
+        console.log("Here");
         var i;
         var slides = document.getElementsByClassName("slider");
         for (i = 0; i < slides.length; i++) {
